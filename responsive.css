@@ -1,0 +1,309 @@
+@media (max-width:1000px) {
+  /* Tulis css class header dibawah ini */
+  .container-header {
+    width: 100%;
+    padding: 0px 64px;
+  }
+
+  /* Tulis css class heading dibawah ini */
+
+  .container-heading {
+    width: 100%;
+    margin: auto;
+    padding: 300px 64px 400px 64px;
+    transform: skew(0deg, -7deg);
+  }
+
+  .text-heading h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+  }
+
+  .aligment-img img {
+    width: 574px;
+    margin-left: -287px;
+    transform: skew(0deg, 0deg) translateY(-300px);
+  }
+  /* Tulis css class our-portofolio dibawah ini */
+  .our-portofolio {
+    margin: 200px 0 200px 0;
+  }
+  .container-porto {
+    width: 100%;
+    padding: 0px 64px;
+  }
+  #ilustrasi{
+    width: 355px;
+  }
+
+  .text-porto {
+    width : 45%;
+  }
+
+  /* Tulis css class our-team dibawah ini */
+  .container-team {
+    width: 100%;
+    padding: 64px 64px 150px 64px;
+  }
+  .card-team {
+    flex-flow: wrap;
+  }
+  .team {
+    flex: 1 0 30%;
+    margin: 1% 1%;
+    padding-top: 44px;
+  }
+  /* Tulis css class cta dibawah ini */
+  .container-cta {
+    width: 100%;
+    padding: 80px 64px;
+  }
+  /* Tulis css class footer dibawah ini */
+  .container-footer {
+    width: 100%;
+    padding: 0px 64px;
+  }
+}
+
+@media (max-width:670px) {
+  /* Tulis css class header dibawah ini */
+
+  .container-header {
+    width: 100%;
+    padding: 0px 24px;
+  }
+
+  .navbar-kanan {
+    display: none;
+  }
+
+  /* Tulis css class heading dibawah ini */
+  .container-heading {
+    padding: 250px 24px 250px 24px;
+    text-align: center;
+  }
+  .text-heading {
+    width: 100%;
+    display: block;
+    float: none;
+    margin-bottom: 64px;
+  }
+
+  .text-heading h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+  }
+
+  .text-heading p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+  }
+  .cta-heading {
+    float: none;
+    height: auto;
+    width: 100%;
+  }
+
+  .cta-heading a {
+    margin: auto;
+  }
+
+  .aligment-img img {
+    width: 26em;
+    margin-left: -13em;
+    transform: skew(0deg, 0deg) translateY(-300px);
+  }
+
+
+  /* Tulis css class our-portofolio dibawah ini */
+  .our-portofolio {
+    margin: 150px 0 500px 0;
+  }
+  .container-porto {
+    width: 100%;
+    padding: 0px 24px;
+  }
+
+  #ilustrasi{
+    width: 300px;
+    top:350px;
+  }
+  .text-porto h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 110.34%;
+
+    /* or 26px */
+    letter-spacing: -0.5px;
+    color: #232323;
+  }
+  .text-porto p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+
+    /* or 21px */
+
+    color: #232323;
+
+    opacity: 0.8;
+  }
+
+  .text-porto {
+    width : 75%;
+  }
+
+  /* Tulis css class our-team dibawah ini */
+  .container-team {
+    width: 100%;
+    padding: 64px 24px 150px 24px;
+  }
+  .card-team {
+    flex-flow: wrap;
+    padding: 0 64px;
+  }
+  .team {
+    flex: 1 0 60%;
+    margin: 5% 5%;
+    padding-top: 64px;
+  }
+  .heading-team h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 110.34%;
+
+    /* or 26px */
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    color: #232323;
+  }
+
+  .team p {
+    margin-bottom: 64px;
+  }
+  /* Tulis css class cta dibawah ini */
+  .container-cta {
+    width: 100%;
+    padding: 80px 24px;
+  }
+  .cta-judul {
+    flex:none;
+    display: block;
+    width: 100%;
+  }
+
+  .cta-judul h1 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 64px;
+  }
+  .cta-judul h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38px;
+
+    /* or 119% */
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+    margin-bottom: 64px;
+  }
+
+
+  .cta-subjudul h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+  }
+
+  .cta-subjudul p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+  }
+  .cta-cta {
+    height: 148px;
+    display: flex;
+    flex: 1 0 100%;
+    align-items: center;
+  }
+  .contact-cta {
+    flex: none;
+    width: 100%;
+    display: block;
+  }
+  .headquarter-cta {
+    margin-right: 64px;
+    width: 100%;
+    flex: none;
+    display: block;
+    margin-bottom: 32px;
+  }
+
+  .cta-subjudul {
+    display: block;
+    flex:none;
+    padding-right: 24px;
+    width: 100%;
+  }
+
+
+  /* Tulis css class footer dibawah ini */
+  .container-footer {
+    width: 100%;
+    padding: 0px 24px;
+    text-align: center;
+  }
+
+  .footer-kiri {
+    float: none;
+  }
+
+  .footer-kanan {
+    float: none;
+    margin-top: 32px;
+  }
+
+
+
+
+
+
+}
