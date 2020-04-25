@@ -46,10 +46,22 @@ header {
   font-weight: 600;
   font-style: normal;
 }
-.navbar-kanan a:hover {
+#main-button {
   color: #fff;
   background-color: #1DA1F3;
+  animation-name: kelapkelip;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes kelapkelip {
+  0%   {background-color: #1DA1F3;}
+  25%  {background-color: #F31D77;}
+  50%  {background-color: #F3DE1D;}
+  100% {background-color: #1DF373;}
+}
+
+
 
 .navbar-kanan .fa {
   margin-right: 8px;
