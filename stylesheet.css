@@ -1,0 +1,400 @@
+/* bawah ini jangan diubah ubah */
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Tulis css class header dibawah ini */
+header {
+  height: 62px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 6px 10px RGB(0,0,0,0.1);
+}
+
+.container-header {
+  width: 976px;
+  margin: auto;
+}
+
+.navbar-kiri {
+  float: left;
+}
+
+.navbar-kiri img {
+  margin-top: 16px;
+}
+
+.navbar-kanan {
+  float: right;
+}
+
+.navbar-kanan a {
+  line-height: 62px;
+  padding: 0 32px;
+  color: #1DA1F3;
+  display: block;
+  float: left;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+}
+.navbar-kanan a:hover {
+  color: #fff;
+  background-color: #1DA1F3;
+}
+
+.navbar-kanan .fa {
+  margin-right: 8px;
+}
+
+
+/* Tulis css class heading dibawah ini */
+.heading {
+  transform: skew(0deg, 7deg) translateY(-120px);
+  background: linear-gradient(347.98deg, #2869C2 22.22%, #1DA1F3 85.22%);
+  position: relative;
+}
+
+.container-heading {
+  width: 976px;
+  margin: auto;
+  padding: 300px 0 500px 0;
+  transform: skew(0deg, -7deg);
+}
+
+.text-heading {
+  width: 75%;
+  display: block;
+  float: left;
+}
+
+.text-heading h1 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 28px;
+}
+
+.text-heading p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.cta-heading {
+  height: 170px;
+  display: flex;
+  float: right;
+  align-items: center;
+}
+.cta-heading a {
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: -0.5px;
+  color: #1DA1F3;
+
+  text-decoration: none;
+  display: inline-block;
+  width: 137px;
+  line-height: 57px;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  margin: auto 0px;
+  box-shadow: 0 5px #1DA1F3;
+}
+.cta-heading a:hover {
+  color: white;
+  background-color: #1DA1F3;
+  box-shadow: 0 5px #fff;
+}
+
+.alignment-img {
+  position: relative;
+  width: 100%;
+}
+.aligment-img img {
+  position: absolute;
+  transform: skew(0deg, 0deg) translateY(-400px);
+  left: 50%;
+  margin-left: -322px;
+}
+
+/* Tulis css class our-portofolio dibawah ini */
+.our-portofolio {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin: 200px 0 300px 0;
+}
+
+.our-portofolio img{
+  position:absolute;
+  right: 0px;
+}
+
+.container-porto {
+  width: 976px;
+  margin: auto;
+}
+
+.text-porto {
+  width : 50%;
+  margin-top: 50px;
+}
+
+.text-porto img {
+  position: static;
+  margin-bottom: 48px;
+}
+
+.text-porto h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 110.34%;
+  letter-spacing: -0.5px;
+  color: #232323;
+  margin-bottom: 32px;
+}
+
+.text-porto p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  color: #232323;
+  opacity: 0.8;
+}
+/* Tulis css class our-team dibawah ini */
+.our-team {
+  background-color: #F7F7F7;
+}
+
+.container-team {
+  width: 976px;
+  margin: auto;
+  text-align: center;
+  padding: 64px 0 150px 0;
+}
+.heading-team img {
+  margin-bottom: 48px;
+}
+
+.heading-team h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 110.34%;
+  letter-spacing: -0.5px;
+  color: #232323;
+  margin-bottom: 48px;
+}
+
+.card-team {
+  display: flex;
+  width: 100%;
+}
+
+.team {
+  background: #FFFFFF;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  flex: 1 0 10%;
+  margin: 0 1%;
+  padding-top: 44px;
+}
+
+.team img {
+  margin-bottom: 32px;
+}
+
+.team h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 110.34%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #232323;
+  margin-bottom: 16px;
+}
+
+.team p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 110.34%;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #232323;
+  margin-bottom: 44px;
+}
+
+/* Tulis css class cta dibawah ini */
+.cta {
+  background: linear-gradient(352.01deg, #2869C2 22.22%, #1DA1F3 85.22%);
+  width: 100%;
+}
+
+.container-cta {
+  width: 976px;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+  padding: 80px 0;
+}
+
+.cta-judul {
+  flex: 1 0 75%;
+  padding-right: 100px;
+}
+.cta-judul h1 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 64px;
+}
+
+.cta-cta {
+  height: 148px;
+  display: flex;
+  flex: 1 0 10%;
+  align-items: center;
+}
+.cta-cta a {
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: right;
+  letter-spacing: -0.5px;
+  color: #1DA1F3;
+
+  text-decoration: none;
+  display: inline-block;
+  width: 137px;
+  line-height: 57px;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: center;
+  margin: auto 0px;
+  box-shadow: 0 5px #1DA1F3;
+}
+
+.cta-cta a:hover {
+  color: white;
+  background-color: #1DA1F3;
+  box-shadow: 0 5px #fff;
+}
+
+.cta-subjudul {
+  flex: 1 0 75%;
+  flex-grow: 0;
+  padding-right: 100px;
+  display: flex;
+}
+
+.headquarter-cta {
+  flex: 60%;
+  padding-right: 64px;
+}
+
+.cta-subjudul h3{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.cta-subjudul p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-bottom: 8
+}
+
+.contact-cta {
+  flex: 40%;
+}
+
+/* Tulis css class footer dibawah ini */
+
+footer {
+  height: 239px;
+  width: 100%;
+  background-color: #47515C;
+  color: #fff;
+  display: flex;
+}
+
+.container-footer {
+  width: 976px;
+  margin: auto;
+
+}
+
+.footer-kiri {
+float: left;
+
+}
+
+.footer-kiri img {
+  margin-bottom: 16px;
+}
+
+.footer-kiri p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.5px;
+  opacity: 0.7;
+}
+
+.footer-kanan {
+  float: right;
+
+}
+
+.footer-kanan p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  opacity: 0.7;
+  display: inline-block;
+  line-height: 71px;
+}
+
+.footer-kanan a {
+
+  color: #fff;
+  display: inline-block;
+  margin: auto 0px auto 32px;
+}
