@@ -30,6 +30,18 @@ header {
   margin-top: 16px;
 }
 
+.sidebar {
+  float:right;
+
+}
+.sidebar a {
+
+  height: 62px;
+  line-height: 62px;
+  color: #1DA1F3;
+  display: none;
+}
+
 .navbar-kanan {
   float: right;
 }
