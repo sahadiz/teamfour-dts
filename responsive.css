@@ -81,6 +81,10 @@
   .navbar-kanan {
     display: none;
   }
+  
+  .sidebar a {
+    display: block;
+  }
 
   /* Tulis css class heading dibawah ini */
   .container-heading {
